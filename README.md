@@ -28,7 +28,7 @@ A vanilla JavaScript web application template built with Webpack for modern fron
 ## Project Structure
 
 ```
-audio-video/
+project-name/
 ├── dist/                 # Production build output (generated)
 ├── src/                  # Source code
 │   ├── index.html        # Main HTML template
