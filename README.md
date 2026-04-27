@@ -56,7 +56,7 @@ project-name/
 
 ```bash
 git clone https://github.com/wjuma19dev2026-wq/vanilla-JavaScript-web-app-template.git
-cd audio-video
+cd vanilla-JavaScript-web-app-template
 ```
 
 2. **Install dependencies**
