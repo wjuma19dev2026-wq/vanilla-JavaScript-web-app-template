@@ -1,0 +1,51 @@
+# --- Entorno de Node / Dependencias ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Archivos de Sistema (Senior: evita ruido entre OS) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# --- Configuración de Entorno (SEGURIDAD) ---
+# Nunca subas tus llaves secretas o variables de entorno
+.env
+.env.local
+.env.*.local
+
+# --- Logs y Performance ---
+logs
+*.log
+npm-debug.log*
+.eslintcache
+.stylelintcache
+
+# --- Herramientas de Compilación / Build ---
+# Si usas Vite, Webpack o Parcel en el futuro:
+dist/
+out/
+build/
+.parcel-cache/
+.cache/
+
+# --- IDEs y Editores ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Cobertura de Testing ---
+coverage/
+.nyc_output/
+
+# --- Otros ---
+.DS_Store

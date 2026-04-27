@@ -1,0 +1,13 @@
+/* GF-LOCAL-START */
+@font-face {
+  font-family: 'alkalami';
+  src: url('../resource/fonts/alkalami.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+/* GF-LOCAL-END */
+
+body {
+  font-family: 'alkalami';
+}

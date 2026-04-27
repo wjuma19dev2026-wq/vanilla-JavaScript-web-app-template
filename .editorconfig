@@ -1,0 +1,40 @@
+# Indica que este es el archivo de configuración raíz. 
+# Detiene la búsqueda de otros archivos .editorconfig en carpetas superiores.
+root = true
+
+[*]
+# --- Configuración de Estabilidad ---
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# --- Sincronización con tu Prettier ---
+indent_style = space
+indent_size = 2
+
+# Limitar visualmente el ancho de línea (Senior: facilita lectura en split-view)
+# Aunque Prettier lo formatea, esto ayuda al editor a mostrar la guía visual.
+max_line_length = 60
+
+# --- Específicos para JavaScript / Web ---
+
+[*.{js,jsx,ts,tsx,vue,html,css}]
+# Previene que editores "inteligentes" cambien el estilo de indentación 
+# basándose en el contenido del archivo.
+indent_style = space
+indent_size = 2
+
+[*.md]
+# En Markdown, los espacios al final de la línea a veces son significativos 
+# para crear saltos de línea (<br>), así que relajamos la regla de limpieza.
+trim_trailing_whitespace = false
+
+[package.json]
+# Algunos desarrolladores prefieren ver los JSON de configuración 
+# con indentación estándar de 2 espacios estrictos.
+indent_size = 2
+
+[{Makefile,*.mk}]
+# Los Makefiles REQUIEREN tabs para funcionar. Un Senior nunca olvida esto.
+indent_style = tab
